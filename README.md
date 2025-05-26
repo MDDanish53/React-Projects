@@ -1,1 +1,1 @@
-This repo contains my projects.
+This repo contains my react projects.

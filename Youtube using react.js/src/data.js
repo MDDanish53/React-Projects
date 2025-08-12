@@ -1,4 +1,4 @@
-export const API_KEY = 'AIzaSyCh77Szp13tugO5IjfHr9HsZVuMTR_ld0o';
+export const API_KEY = 'YOUTUBE_API_KEY';
 
 export const value_converter = (value) => {
     if (value >= 1000000) {

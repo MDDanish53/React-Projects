@@ -1,12 +1,46 @@
-# React + Vite
+# 🎥 YouTube Clone (React + YouTube API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional **YouTube Clone** built with **React.js** that uses the official **YouTube Data API v3** to fetch real-time videos, categories, and video details.  
+This project replicates core YouTube features such as category-based feeds, video playback, recommended videos, and detailed video information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📂 **Category-wise Feed** — Browse videos by categories.
+- ▶ **Video Playback** — Click any video to watch it directly.
+- 📜 **Video Details** — Displays:
+  - Video Title
+  - Channel Image & Name
+  - Views Count
+  - Uploaded Time (e.g., "2 days ago")
+  - Likes Count
+  - Comments Data
+- 📌 **Recommended Videos** — Suggested based on the selected video.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js
+- **API:** YouTube Data API v3
+- **Routing:** React Router DOM
+- **State Management:** useState, useEffect
+
+---
+
+## 📷 Screenshots
+
+### 🏠 Home Page (Category-wise Feed)
+![Home Page Screenshot](images/home-page.png)
+
+### 🏠 Gaming Category Feed 
+![Gaming Category Screenshot](images/gaming-feed.png)
+
+### 📺 Video Details Page
+![Video Details Screenshot](images/video-details.png)
+
+### 🎯 Video Comments and Channel Info
+![Recommended Videos Screenshot](images/comments-and-channel-info.png)
+
+---
